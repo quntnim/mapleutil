@@ -1,9 +1,14 @@
 import React from "react";
+import styles from './Footer.module.css'
 
-function Footer(props){
+function Footer(){
     return(
-        <footer>
-            <h2>나는 footer다</h2>
+        <footer className={styles.Footer}>
+            <div className={styles.contents}>
+                <h2 className={styles.title}>
+                    
+                </h2>
+            </div>
         </footer>
     )
 }

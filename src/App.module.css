@@ -1,3 +1,13 @@
+*{
+    font-family: 'Pretendard',pretendard;
+}
+
 .Layout {
     padding-top: 80px;
+    padding-left: 20px;
+}
+
+.Footer {
+    position: fixed;
+    bottom: 0;
 }
