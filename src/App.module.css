@@ -3,11 +3,15 @@
 }
 
 .Layout {
-    padding-top: 80px;
-    padding-left: 20px;
+    padding-top: 73px;
+    height: 100%;
 }
 
-.Footer {
-    position: fixed;
-    bottom: 0;
+.bottom{
+    height: auto;
+    min-height: 100%;
+    padding-bottom: (20);
+    height: (20);
+    position : relative;
+    transform : translateY(-100%);
 }

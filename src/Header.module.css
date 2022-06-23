@@ -1,3 +1,14 @@
+.Alphatxt{
+    background: linear-gradient(to left,orange,yellow);
+    color: transparent;
+    background-clip: text;
+}
+.whitecol{
+    text-decoration: none;
+    color: white;
+}
+
+
 .Header {
     position: fixed;
     left: 0;
@@ -13,7 +24,6 @@
     text-decoration: none;
     color:white;
 }
-
 .contents {
     display: flex;
     width: 96%;
@@ -29,6 +39,36 @@
     list-style: none;
 }
 
+.Maintxt{
+    transition: 0.2s;
+}
+.Maintxt:hover{
+    color:blanchedalmond;
+    transform: scale(1.08);
+}
+.Maintxt:active{
+    color: orange;
+    transform: scale(0.9);
+}
+
 .li{
+    transition: 0.2s;
     margin-left: 30px;
+}
+.li:hover{
+    color: aliceblue;
+    transform: scale(1.1);
+}
+.li:active{
+    transform: scale(0.8);
+}
+
+.nota{
+    transition: 0.2s;
+    margin-left: 30px;
+}
+.nota:hover{
+    color: gray;
+    text-decoration: line-through;
+    transform: scale(1.1);
 }
